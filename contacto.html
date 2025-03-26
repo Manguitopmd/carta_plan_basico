@@ -5,39 +5,12 @@
         <h3 class="text-xl font-semibold mb-2">Ubicación</h3>
         <img src="assets/local.jpg" alt="Foto del local" class="w-full h-48 object-cover rounded-lg mb-4">
         <p>Panamericana Norte 595 | Trujillo - Perú</p>
-        <a href="https://www.google.com/maps" target="_blank" class="map-button-bg text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 transition duration-200 w-48 mt-4 mx-auto">
+        <a href="https://www.google.com/maps/place/Restaurant+Soledad/@-7.9327728,-79.1031953,17z/data=!4m14!1m7!3m6!1s0x91ad4111bcebf0f3:0x985ffaf605757d3b!2sRestaurant+Soledad!8m2!3d-7.9327781!4d-79.1006204!16s%2Fg%2F11krm0pg4c!3m5!1s0x91ad4111bcebf0f3:0x985ffaf605757d3b!8m2!3d-7.9327781!4d-79.1006204!16s%2Fg%2F11krm0pg4c?entry=ttu&g_ep=EgoyMDI1MDMyNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-button-bg text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 transition duration-200 w-48 mt-4 mx-auto">
             <i class="fas fa-map-marker-alt"></i> Cómo llegar
         </a>
         <h3 class="text-xl font-semibold mt-6 mb-2">WhatsApp</h3>
         <a href="https://wa.me/51930288404" target="_blank" class="whatsapp-bg text-white px-4 py-2 rounded-lg flex items-center justify-center gap-2 transition duration-200 w-48 mx-auto">
             <i class="fab fa-whatsapp"></i> WhatsApp
         </a>
-    </div>
-    <!-- Formulario de Reservas -->
-    <div class="card-bg rounded-lg shadow-lg p-6 mt-6 animate-slide-up">
-        <h3 class="text-xl font-semibold mb-4 text-center">Reserva tu Mesa</h3>
-        <form id="reservationForm" onsubmit="sendReservation(event)" class="space-y-4">
-            <div>
-                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Tu Nombre</label>
-                <input type="text" id="name" name="name" placeholder="Ej: Juan Pérez" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500" required>
-            </div>
-            <div>
-                <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Teléfono</label>
-                <input type="tel" id="phone" name="phone" placeholder="Ej: 930288404" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500" required>
-            </div>
-            <div>
-                <label for="date" class="block text-sm font-medium text-gray-700 mb-1">Fecha de la Reserva</label>
-                <input type="date" id="date" name="date" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500" required>
-            </div>
-            <div>
-                <label for="time" class="block text-sm font-medium text-gray-700 mb-1">Hora de la Reserva</label>
-                <input type="time" id="time" name="time" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500" required>
-            </div>
-            <div>
-                <label for="people" class="block text-sm font-medium text-gray-700 mb-1">Número de Personas</label>
-                <input type="number" id="people" name="people" placeholder="Ej: 4" class="w-full p-2 border rounded focus:outline-none focus:ring-2 focus:ring-orange-500" required min="1">
-            </div>
-            <button type="submit" class="button-bg text-white px-4 py-2 rounded w-full hover:shadow-lg transition duration-200">Enviar Reserva</button>
-        </form>
     </div>
 </section>
