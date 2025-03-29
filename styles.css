@@ -1,19 +1,19 @@
 /* Variables de color personalizables */
 :root {
-    --primary-bg: #f3f4f6; /* Fondo principal (bg-gray-100) */
-    --header-bg: #7f1d1d; /* Fondo del header y footer (bg-red-900) */
-    --text-primary: #1f2937; /* Texto principal (text-gray-800) */
+    --primary-bg: #FFB400; /* Fondo principal (bg-gray-100) */
+    --secundary-bg: #900000; /* Fondo principal (bg-red-100) */
+    --header-bg: #930000; /* Fondo del header y footer (bg-red-900) */
+    --text-primary: #2E0606; /* Texto principal (text-gray-800) */
     --text-secondary: #4b5563; /* Texto secundario (text-gray-700) */
-    --text-accent: #fcd34d; /* Texto de acento (text-amber-300) */
+    --text-accent: #FFf; /* Texto de acento (text-amber-300) */
     --button-bg: #f97316; /* Fondo de botones "Ver más" (bg-orange-500) */
     --button-hover: #ea580c; /* Hover de botones "Ver más" (bg-orange-600) */
     --price-text: #ea580c; /* Texto de precios (text-orange-600) */
     --card-bg: #ffffff; /* Fondo de tarjetas (bg-white) */
     --whatsapp-bg: #16a34a; /* Fondo de WhatsApp (bg-green-600) */
     --whatsapp-hover: #15803d; /* Hover de WhatsApp (bg-green-700) */
-    --highlight-bg: #fef3c7; /* Fondo de destaque (bg-amber-100) */
+    --highlight-bg: #FF8A00; /* Fondo de destaque (bg-amber-100) */
     --map-button-bg: #3b82f6; /* Fondo del botón de mapa (bg-blue-500) */
-    --map-button-hover: #2563eb; /* Hover del botón de mapa (bg-blue-600) */
 }
 
 /* Aplicar variables */
